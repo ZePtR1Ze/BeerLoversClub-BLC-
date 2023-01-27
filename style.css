@@ -1,0 +1,229 @@
+body{
+position: relative;
+width: 1920px;
+height: 1080px;
+
+background: linear-gradient(90deg, #FEC38E 1.03%, #9A2F00 100%);
+}
+
+#canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    left: 1791px;
+    margin: 0 auto;
+  }
+
+.hello{
+    position: absolute;
+    width: 850px;
+    height: 83px;
+    left: 99px;
+    top: 216px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 82px;
+    color:rgba(255, 255, 255, 1);
+}
+.hello1{
+    position: absolute;
+    width: 90px;
+    height: 83px;
+    left: 98px;
+    top: 280px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 82px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+.hello2{
+    position: absolute;
+    width: 400px;
+    height: 21px;
+    left: 100px;
+    top: 380px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+/* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.offers{
+    position: absolute;
+    width: 135px;
+    height: 27px;
+    left: 125px;
+    top: 530px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+/* identical to box height */
+
+
+color: rgba(254, 195, 142, 1);
+
+}
+
+.rectangles{
+    position: absolute;
+    width: 178px;
+    height: 48px;
+    left: 100px;
+    top: 540px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.mainpic{
+    position: absolute;
+    /* width: 831px;
+    height: 931px;
+    left: 1006px;*/
+    top: 200px;
+    margin: auto 900px;
+    float: right;
+    width: 150px;
+    height: 38px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.site{
+    position: absolute;
+    width: 43px;
+    height: 21px;
+    left: 121px;
+    top: 59px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.navHome{
+    position: absolute;
+    width: 43px;
+    height: 21px;
+    left: 1180px;
+    top: 59px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.navProduct{
+    position: absolute;
+    width: 43px;
+    height: 21px;
+    left: 1280px;
+    top: 59px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.navBranch{
+    position: absolute;
+    width: 43px;
+    height: 21px;
+    left: 1400px;
+    top: 59px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.navOrder{
+    position: absolute;
+    width: 180px;
+    height: 21px;
+    left: 1791px;
+    top: 59px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 21px;
+/* identical to box height */
+
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}
+
+.specific{
+    text-decoration-line: underline;
+}
+.logo{
+    position: absolute;
+    width: 150px;
+    height: 131px;
+    left: 15px;
+    top: 1px;
+}
