@@ -3,7 +3,17 @@ position: relative;
 width: 1720px;
 height: 1080px;
 
-background: linear-gradient(90deg, #FEC38E 1.03%, #9A2F00 100%);
+/* background: linear-gradient(87.86deg, #FEC38E 26.56%, #9A2F00 146.12%); */ 
+/* better and static background :P */
+background: #1e5799;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(26.56%,#FEC38E), color-stop(100%,#9A2F00));
+  background: -webkit-linear-gradient(top,  #FEC38E 26.56%, #9A2F00 100%);
+  background:    -moz-linear-gradient(top,  #FEC38E 26.56%, #9A2F00 100%);
+  background:     -ms-linear-gradient(top,  #FEC38E 26.56%, #9A2F00 100%);
+  background:      -o-linear-gradient(top,  #FEC38E 26.56%, #9A2F00 100%);
+  background:         linear-gradient(to bottom, #1e5799 0%, #9A2F00 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FEC38E', endColorstr='#9A2F00',GradientType=0 );
+  background-attachment: fixed;
 }
 
 #canvas {
@@ -337,4 +347,108 @@ color: #FFFFFF;
     
     
     color: #FEC38E;
+}
+
+/* ================================================================BRANCHES================================================================ */
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 400px; /* The height is 400 pixels */
+    width: 100%; /* The width is the width of the web page */
+  }
+
+.helloBranches {
+    position: absolute;
+    width: 850px;
+    height: 83px;
+    left: 97px;
+    top: 190px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 82px;
+    color:rgba(255, 255, 255, 1);
+}
+
+.footer {
+    position:relative;
+    right: -80px;
+    bottom: 0;
+    width: 100%;
+    color: rgb(207, 35, 35);
+    text-align: center;
+}
+
+h4{
+    color: white;
+    margin-top: 10px;
+    margin-left: 750px;
+}
+
+h5 {
+    position: absolute;
+    width: 150px;
+    height: 26px;
+    left: 1725.69px;
+    top: 430.33px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 7px;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+    transform: rotate(-90.74deg);
+}
+
+.fakemap {
+    position: absolute;
+    width: 833px;
+    height: 427px;
+    left: 780px;
+    top: 230px;
+}
+
+.instagramLogo {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 1820px;
+    top: 423px;
+}
+
+.telegramLogo {
+    position: absolute;
+    width: 35px;
+    height: 38.3px;
+    left: 1820px;
+    top: 465px;
+}
+
+.facebookLogo {
+    position: absolute;
+    width: 35px;
+    height: 34px;
+    left: 1820px;
+    top: 503px;
+}
+
+.GoogleMapsLogo {
+    position: absolute;
+    width: 94px;
+    height: 91px;
+    left: 800px;
+    top: 680px;    
+}
+
+.AppleMapsLogo {
+    position: absolute;
+    width: 92px;
+    height: 91px;
+    left: 910px;
+    top: 683px;    
 }
