@@ -1,7 +1,8 @@
 body{
 position: relative;
-width: 1720px;
-height: 900px;
+height:50vh;
+/* width: 1720px;
+height: 900px; */
 
 /* background: linear-gradient(87.86deg, #FEC38E 26.56%, #9A2F00 146.12%); */ 
 /* better and static background :P */
